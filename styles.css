@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(237, 205, 237);
+    font-size: clamp(1rem, 3vw, 1.3rem); /* Font size changes based on viewport width*/
+    padding: 10px;
+    display: grid; /* Doesnt do much at the moment*/
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    font-size: clamp(1.4rem, 5vw, 1.8rem);
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+a {
+    font-weight: bold;
+}
+
+ul li {
+    margin-bottom: 7px;
+}
